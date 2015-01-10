@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="cpuaff : Multi-platform C++11 interface to CPU affinity management">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>cpuaff</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/dcdillon/cpuaff">View on GitHub</a>
+
+          <h1 id="project_title">cpuaff</h1>
+          <h2 id="project_tagline">Multi-platform C++11 interface to CPU affinity management</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/dcdillon/cpuaff/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/dcdillon/cpuaff/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="description" class="anchor" href="#description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Description</h3>
+
+<p>cpuaff is a C++11 library that abstracts CPU affinity settings for multiple platforms.  It aims to be easy to use yet powerful.</p>
+
+<h3>
+<a id="details" class="anchor" href="#details" aria-hidden="true"><span class="octicon octicon-link"></span></a>Details</h3>
+
+<p>cpuaff builds up a four part view of every processor on a system.  CPUs are identified by their socket, core, and processing_unit.  Additionally each cpu on the system has a notion of its NUMA node.  This allows a developer to select the CPUs at runtime that achieve the performance goals of his/her application.</p>
+
+<p>cpuaff aims to eventually be completely header-only for easy integration into a system.  For the time being the Linux implementation is header-only.  Other platforms are implemented using <a href="http://www.open-mpi.org/projects/hwloc/">hwloc</a> as an interface to the underlying hardware.</p>
+
+<h3>
+<a id="rationale" class="anchor" href="#rationale" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rationale</h3>
+
+<p>Managing the CPU affinity of threads within a process is a powerful tool, but operating system provided interfaces are often difficult to use and hard to understand.  To this end, I have created cpuaff which will give an abstract view of the CPUs on a given machine and an easy to use interface to get/set them within a process.</p>
+
+<h3>
+<a id="licensing" class="anchor" href="#licensing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Licensing</h3>
+
+<p>cpuaff is distributed under the <a href="http://opensource.org/licenses/BSD-3-Clause">New BSD</a> (or BSD 3-Clause) license.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">cpuaff maintained by <a href="https://github.com/dcdillon">dcdillon</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
