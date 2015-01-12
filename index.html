@@ -36,60 +36,18 @@
 
 <p>cpuaff is a C++ library that abstracts CPU affinity settings for multiple platforms.  It is a header-only library on some platforms.  Other platforms are supported using <a href="http://www.open-mpi.org/projects/hwloc/">hwloc</a>.  The project aims to fully support all platforms as header-only eventually.</p>
 
+<p>To see a list of supported platforms <a href="supported_platforms.html">click here</a>.</p>
+
 <h3>
 <a id="releases" class="anchor" href="#releases" aria-hidden="true"><span class="octicon octicon-link"></span></a>Releases</h3>
 
-<p>To get a stable release, go to the <a href="downloads/">downloads</a> page.  This is the preferred method of acquiring cpuaff.</p>
+<p>The latest release is <a href="releases/cpuaff-0.0.1.tar.gz">cpuaff-0.0.1</a>.</p>
+
+<p>To get other releases, go to the <a href="downloads.html">downloads</a> page.</p>
 
 <p>To get a snapshot of the repository, click one of the download links on this page.</p>
 
-<h3>
-<a id="supported-platforms" class="anchor" href="#supported-platforms" aria-hidden="true"><span class="octicon octicon-link"></span></a>Supported Platforms</h3>
-
-<p>The following platforms are fully supported and tested:</p>
-
-<ul>
-<li>Linux</li>
-</ul>
-
-<p>The following platforms should work (and I would like help in testing them) using <a href="http://www.open-mpi.org/projects/hwloc/">hwloc</a>:</p>
-
-<ul>
-<li>Microsoft Windows</li>
-<li>OS X</li>
-<li>FreeBSD</li>
-<li>NetBSD</li>
-<li>Solaris</li>
-<li>HP-UX</li>
-<li>AIX</li>
-</ul>
-
-<p>cpuaff uses the GNU autotools (<a href="https://www.gnu.org/software/autoconf/">autoconf</a>, <a href="https://www.gnu.org/software/automake/">automake</a>, <a href="https://www.gnu.org/software/make/">make</a>) build system, but can be easily manually installed.</p>
-
-<h3>
-<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h3>
-
-<p>To install a stable release:</p>
-
-<pre><code>tar -xzf cpuaff-x.x.x.tar.gz
-cd cpuaff-x.x.x
-./configure
-make
-make install
-</code></pre>
-
-<p>To install from a repository snapshot:</p>
-
-<pre><code>tar -xzf &lt;tarball&gt;
-cd &lt;tarball directory&gt;
-aclocal
-autoconf
-autoheader
-automake -c --add-missing
-./configure
-make
-make install
-</code></pre>
+<p>For installation instructions, <a href="installation.html">click here</a></p>
 
 <h3>
 <a id="details" class="anchor" href="#details" aria-hidden="true"><span class="octicon octicon-link"></span></a>Details</h3>
