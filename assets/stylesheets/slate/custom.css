@@ -3,7 +3,7 @@ Custom modifications to the Slate Theme by Jason Costello
 *******************************************************************************/
 
 #header_wrap .inner {
-	text-align: center;
+	text-align: left;
 }
 
 a#title_link {
@@ -15,6 +15,6 @@ a#title_link {
 }
 
 #footer_wrap .inner {
-	text-align: center;
+	text-align: left;
 }
 
