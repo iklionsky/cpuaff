@@ -1,6 +1,7 @@
 --
 title: cpuaff
 layout: slate
+permalink: supported_platforms.html
 ---
 
 ### Supported Platforms
