@@ -12,8 +12,8 @@ subtitle: "Multi-platform C++ interface to CPU affinity management"
 github_url: https://github.com/dcdillon/cpuaff
 github_username: dcdillon
 
-github_license: The MIT License
-github_license_url: https://github.com/IQAndreas/markdown-licenses/blob/master/mit.md
+#github_license:
+#github_license_url:
 
 
 # ----------------------- #
@@ -32,6 +32,10 @@ fonts:       /assets/fonts
 #global_images:      http://static.iqandreas.com/assets/images
 #global_fonts:       http://static.iqandreas.com/assets/fonts
 
+global_stylesheets: /assets/stylesheets
+global_javascripts: /assets/javascripts
+global_images:      /assets/images
+global_fonts:       /assets/fonts
 # ----------------------- #
 #     Plugin Configs      #
 # ----------------------- #
