@@ -50,6 +50,8 @@ by Jason Costello, @jsncostello
 	background: -ms-linear-gradient(top, #373737, #212121);
 	background: -o-linear-gradient(top, #373737, #212121);
 	background: linear-gradient(top, #373737, #212121);
+	text-align: center;
+	vertical-align: center;
 }
 
 .zip_download_link {
