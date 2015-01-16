@@ -3,7 +3,11 @@ title: Details
 layout: slate
 ---
 
-### Details
+### Rationale
+
+Managing the CPU affinity of threads within a process is a powerful tool, but operating system provided interfaces are often difficult to use and hard to understand.  To this end, I have created cpuaff which will give an abstract view of the CPUs and PCI devices on a given machine.  The developer can then use this view to make intelligent decisions about setting thread CPU affinity.
+
+### Description
 
 cpuaff identifies CPUs by their socket, core, and processing unit.  Sockets are zero indexed.  Cores are zero indexed per socket.  Processing units are zero indexed per core.  CPUs are uniquely identified by an ordered triple of integers (socket, core, processing unit).  So the first processing unit on the third core of the first socket is represented by (0, 2, 0).  CPUs are also annotated with their NUMA node.
 
