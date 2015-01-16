@@ -5,7 +5,7 @@ layout: slate
 
 ### Rationale
 
-Managing the CPU affinity of threads within a process is a powerful tool, but operating system provided interfaces are often difficult to use and hard to understand.  To this end, I have created cpuaff which will give an abstract view of the CPUs and PCI devices on a given machine.  The developer can then use this view to make intelligent decisions about setting thread CPU affinity.
+Managing the CPU affinity of threads within a process is often useful for increased performance under guaranteed bounds.  However, interfaces provided by the operating system are often difficult to understand and use.  To this end, I have created cpuaff.  It gives an abstract view of the CPUs and PCI devices on a given machine.  The developer can use this view to make intelligent decisions about CPU affinity.
 
 ### Description
 
