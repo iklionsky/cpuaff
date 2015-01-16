@@ -6,6 +6,7 @@ name: Daniel C. Dillon (dcdillon)
 author: Daniel C. Dillon (dcdillon)
 url: 'http://dcdillon.github.io/cpuaff'
 
+copyright_message: '&copy; 2015 Daniel C. Dillon'
 title: "cpuaff"
 subtitle: "Multi-platform C++ interface to CPU affinity management"
 
