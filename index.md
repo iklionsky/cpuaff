@@ -7,9 +7,9 @@ layout: slate
 
 cpuaff is a C++ library that abstracts CPU affinity settings for multiple platforms.  It is a header-only library on some platforms.  Other platforms are supported using [hwloc](http://www.open-mpi.org/projects/hwloc/).  The project aims to fully support all platforms as header-only eventually.
 
-To see a list of supported platforms click [here](supported_platforms.html).
-
 For a more detailed description of cpuaff, click [here](details.html)
+
+To see a list of supported platforms click [here](supported_platforms.html).
 
 ### Releases
 
