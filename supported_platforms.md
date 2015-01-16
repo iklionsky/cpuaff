@@ -1,5 +1,5 @@
 ---
-title: cpuaff
+title: cpuaff - Supported Platforms
 layout: slate
 ---
 
