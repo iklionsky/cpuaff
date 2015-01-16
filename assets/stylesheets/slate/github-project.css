@@ -30,6 +30,7 @@ by Jason Costello, @jsncostello
 
 #downloads {
 	position: absolute;
+	width: 100%;
 	z-index: 10;
 	bottom: -40px;
 	right: 0;
@@ -37,8 +38,9 @@ by Jason Costello, @jsncostello
 }
 
 .menu_link {
-	display: inline;
+	display: block;
 	float: left;
+	padding: 5px 5px 5px 5px;
 }
 
 .zip_download_link {
