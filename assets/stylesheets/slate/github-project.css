@@ -36,11 +36,11 @@ by Jason Costello, @jsncostello
 	bottom: -40px;
 	right: 0;
 	height: 70px;
-	background: url('images/icon_download.png') no-repeat 0% 90%;
 }
 
 .menu_link {
 	float: left;
+	padding: 5px;
 }
 
 .zip_download_link {
