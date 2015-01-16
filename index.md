@@ -1,5 +1,5 @@
 ---
-title: cpuaff
+title: Home
 layout: slate
 ---
 

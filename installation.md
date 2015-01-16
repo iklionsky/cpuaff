@@ -1,5 +1,5 @@
 ---
-title: cpuaff - Installation
+title: Installation
 layout: slate
 ---
 
