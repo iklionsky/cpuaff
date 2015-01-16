@@ -1,8 +1,8 @@
 {% if site.github_url %}
 	<p>
-	Maintained by <a class="footer" rel="author" href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a> 
+	Maintained by <a rel="author" href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a> 
 	{% if site.copyright_message %}
-		<span class="copyright">{{ site.copyright_message }}</span>
+		<hr /><span class="copyright">{{ site.copyright_message }}</span>
 	{% elsif site.github_license %}
 		and <span class="license">released under <a ref="license" href="{% if site.github_license_url %}{{ site.github_license_url }}{% else %}{{ site.github_url }}/blob/master/LICENSE.md{% endif %}">{{ site.github_license }}</a></span>
 	{% endif %}
