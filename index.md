@@ -2,6 +2,9 @@
 title: Home
 layout: slate
 ---
+### News
+
+2015-01-25 10:52: Released cpuaff-0.0.1.  All the code is there.  Unit tests using CATCH are present.  Several examples exist as well.  Hooray!
 
 ### Description
 
