@@ -4,9 +4,11 @@ layout: slate
 ---
 ### News
 
-2015-01-25 10:52
+#### 2015-01-25 10:52 Version 0.0.1 Released
 
-Released cpuaff-0.0.1.  All the code is there.  Unit tests using CATCH are present.  Several examples exist as well.  Hooray!
+Released cpuaff-0.0.1.  All the code is there.  Unit tests using [CATCH](https://github.com/philsquared/Catch) are present.  Several examples exist as well.  Hooray!
+
+More documentation as well as some examples on the website are in the works and will be released soon.
 
 ### Description
 
