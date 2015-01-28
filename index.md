@@ -6,7 +6,7 @@ layout: slate
 
 #### Version 0.0.1 Released
 
-Released [cpuaff-0.0.1](releasses/cpuaff-0.0.1.tar.gz).  All the code is there.  Unit tests using [CATCH](https://github.com/philsquared/Catch) are present.  Several examples exist as well.  Hooray!
+Released [cpuaff-0.0.1](releases/cpuaff-0.0.1.tar.gz).  All the code is there.  Unit tests using [CATCH](https://github.com/philsquared/Catch) are present.  Several examples exist as well.  Hooray!
 
 More documentation as well as some examples on the website are in the works and will be released soon.
 
