@@ -11,7 +11,7 @@ a#title_link {
 }
 
 img.title_link {
-	text-align: right;
+	float: right;
 	vertical-align: bottom;
 }
 
