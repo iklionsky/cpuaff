@@ -30,7 +30,7 @@ To see a list of supported platforms click [here](supported_platforms.html).
 
 ### Pronunciation
 
-Due to popular demand, we now have a guide on pronunciation.  cpuaff is pronounced \"spoof\" because all other pronunciations I have come up with sound like garbled French.
+Due to popular demand, we now have a guide on pronunciation.  cpuaff is pronounced "spoof" because all other pronunciations I have come up with sound like garbled French.
 
 ### Releases
 
