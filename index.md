@@ -30,6 +30,14 @@ For a more detailed description of cpuaff, click [here](details.html)
 
 To see a list of supported platforms click [here](supported_platforms.html).
 
+### Releases
+
+The latest release is [cpuaff-0.0.1](releases/cpuaff-0.0.1.tar.gz).  To get other releases, go to the [downloads](downloads.html) page.
+
+For installation instructions, click [here](installation.html)
+
+To get a snapshot of the repository, click one of the download links on this page.
+
 ### Simple Example
 
     #include <cpuaff/cpuaff.hpp>
@@ -84,14 +92,6 @@ To see a list of supported platforms click [here](supported_platforms.html).
 ### Pronunciation
 
 Due to popular demand, we now have a guide on pronunciation.  cpuaff is pronounced "spoof" because all other pronunciations I have come up with sound like garbled French.
-
-### Releases
-
-The latest release is [cpuaff-0.0.1](releases/cpuaff-0.0.1.tar.gz).  To get other releases, go to the [downloads](downloads.html) page.
-
-For installation instructions, click [here](installation.html)
-
-To get a snapshot of the repository, click one of the download links on this page.
 
 ### Licensing
 
