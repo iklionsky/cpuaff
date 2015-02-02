@@ -10,6 +10,10 @@ a#title_link {
 	display: block;
 }
 
+img.title_link {
+	vertical-align: bottom;
+}
+
 #main_content p {
 	text-align: justify;
 }
