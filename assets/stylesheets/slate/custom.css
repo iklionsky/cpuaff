@@ -16,6 +16,12 @@ img.title_link {
 	padding: 0px;
 	margin: 0px;
 	border: 0px;
+
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	-ms-box-shadow: none;
 }
 
 #main_content p {
