@@ -4,6 +4,14 @@ layout: slate
 ---
 ### News
 
+#### Continuous Integration and Some Minor Enhancements
+
+Thanks to [Dirk Eddelbuettel](https://github.com/eddelbuettel) we now have continuous integration using [Travis CI](https://travis-ci.org).  As a result we now compile with clang as well as g++.  There were a few minor code enhancements that went in as part of this process but nothing worthy of a new release.
+
+For the next release I plan to disentangle PCI device mapping from the affinity_manager class to make things more modular both for testing and usage.
+
+2015-02-02 18:16:00
+
 #### Version 0.0.1 Released
 
 Released [cpuaff-0.0.1](releases/cpuaff-0.0.1.tar.gz).  All the code is there.  Unit tests using [CATCH](https://github.com/philsquared/Catch) are present.  Several examples exist as well.  Hooray!
