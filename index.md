@@ -3,7 +3,7 @@ title: Home
 layout: slate
 ---
 
-### News ![Build Status](https://travis-ci.org/dcdillon/cpuaff.svg?branch=master)
+### News
 
 ##### Continuous Integration and Some Minor Enhancements
 
