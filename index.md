@@ -12,7 +12,7 @@ Thanks to [Dirk Eddelbuettel](https://github.com/eddelbuettel) we now have conti
 
 For the next release I plan to disentangle PCI device mapping from the affinity_manager class to make things more modular both for testing and usage.
 
-2015-02-02 18:16:00
+2015-02-01 18:16:00
 
 ##### Version 0.0.1 Released
 
@@ -39,7 +39,7 @@ To see a list of supported platforms click [here](supported_platforms.html).
     {
         cpuaff::affinity_manager manager;
     
-        if (manager.initialize())
+        if (manager.has_cpus())
         {
             cpuaff::cpu_set cpus;
             manager.get_affinity(cpus);
@@ -56,14 +56,16 @@ To see a list of supported platforms click [here](supported_platforms.html).
     
             std::cout << std::endl;
     
-            // set the affinity to all the processing units on the first core
+            // set the affinity to all the processing units on
+            // the first core
             cpuaff::cpu_set core_0;
             manager.get_cpus_by_core(core_0, 0);
     
             manager.set_affinity(core_0);
             manager.get_affinity(cpus);
     
-            std::cout << "Affinity After Calling set_affinity():" << std::endl;
+            std::cout << "Affinity After Calling set_affinity():"
+                      << std::endl;
             i = cpus.begin();
             iend = cpus.end();
     
