@@ -39,7 +39,7 @@ To get a snapshot of the repository, click one of the download links on this pag
 
 ### Simple Example
 
-```{.cpp}
+``` cpp
     #include <cpuaff/cpuaff.hpp>
     #include <iostream>
     
