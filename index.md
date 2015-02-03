@@ -43,7 +43,7 @@ To see a list of supported platforms click [here](supported_platforms.html).
 
 ### Releases
 
-The latest release is [cpuaff-0.0.1](releases/cpuaff-0.0.1.tar.gz).  To get other releases, go to the [downloads](downloads.html) page.
+The latest release is [cpuaff-0.0.2](releases/cpuaff-0.0.2.tar.gz).  To get other releases, go to the [downloads](downloads.html) page.
 
 For installation instructions, click [here](installation.html)
 

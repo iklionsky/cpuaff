@@ -15,12 +15,7 @@ To install a stable release:
 
 To install from a repository snapshot:
 
-    tar -xzf <tarball>
-    cd <tarball directory>
-    aclocal
-    autoconf
-    autoheader
-    automake -c --add-missing
+    ./bootstrap.sh
     ./configure
     make
     make install
