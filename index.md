@@ -10,9 +10,10 @@ layout: slate
 Released [cpuaff-0.0.2](releases/cpuaff-0.0.2.tar.gz).
 
 Changes:
-* Separated pci_device_manager from affinity_manager
-* Changed affinity_manager, native_cpu_mapper, round_robin_allocator, pci_device_manager, and pci_name_resolver to initialize on construction
-* Linux sysfs_reader now supports more sysfs layouts
+
+* Separated pci\_device\_manager from affinity\_manager
+* Changed affinity\_manager, native\_cpu\_mapper, round\_robin\_allocator, pci\_device\_manager, and pci\_name\_resolver to initialize on construction
+* Linux sysfs\_reader now supports more sysfs layouts
 
 2015-02-02 20:58:00
 
