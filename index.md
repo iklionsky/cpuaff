@@ -5,6 +5,17 @@ layout: slate
 
 ### News
 
+##### Version 0.0.2 Releases
+
+Released [cpuaff-0.0.2](releases/cpuaff-0.0.2.tar.gz).
+
+Changes:
+* Separated pci_device_manager from affinity_manager
+* Changed affinity_manager, native_cpu_mapper, round_robin_allocator, pci_device_manager, and pci_name_resolver to initialize on construction
+* Linux sysfs_reader now supports more sysfs layouts
+
+2015-02-02 20:58:00
+
 ##### Continuous Integration and Some Minor Enhancements
 
 Thanks to [Dirk Eddelbuettel](https://github.com/eddelbuettel) we now have continuous integration using [Travis CI](https://travis-ci.org).  As a result we now compile with clang as well as g++.  There were a few minor code enhancements that went in as part of this process but nothing worthy of a new release.
