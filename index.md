@@ -5,7 +5,15 @@ layout: slate
 
 ### News
 
-##### Version 0.0.2 Releases
+##### Version 0.0.3 Released
+
+Released [cpuaff-0.0.3](releases/cpuaff-0.0.3.tar.gz).
+
+Changes:
+
+* Fixed a linking error from a function that was not declared inline.
+
+##### Version 0.0.2 Released
 
 Released [cpuaff-0.0.2](releases/cpuaff-0.0.2.tar.gz).
 
@@ -25,14 +33,6 @@ For the next release I plan to disentangle PCI device mapping from the affinity_
 
 2015-02-01 18:16:00
 
-##### Version 0.0.1 Released
-
-Released [cpuaff-0.0.1](releases/cpuaff-0.0.1.tar.gz).  All the code is there.  Unit tests using [CATCH](https://github.com/philsquared/Catch) are present.  Several examples exist as well.  Hooray!
-
-More documentation as well as some examples on the website are in the works and will be released soon.
-
-2015-01-25 15:08:00
-
 ### Short Description
 
 cpuaff is a C++ library that abstracts CPU affinity settings for multiple platforms.  It is a header-only library on some platforms.  Other platforms are supported using [hwloc](http://www.open-mpi.org/projects/hwloc/).  The project aims to fully support all platforms as header-only eventually.
@@ -43,7 +43,7 @@ To see a list of supported platforms click [here](supported_platforms.html).
 
 ### Releases
 
-The latest release is [cpuaff-0.0.2](releases/cpuaff-0.0.2.tar.gz).  To get other releases, go to the [downloads](downloads.html) page.
+The latest release is [cpuaff-0.0.3](releases/cpuaff-0.0.3.tar.gz).  To get other releases, go to the [downloads](downloads.html) page.
 
 For installation instructions, click [here](installation.html)
 
