@@ -5,6 +5,14 @@ layout: slate
 
 ### News
 
+##### Version 0.0.4 Released
+
+Released [cpuaff-0.0.4](releases/cpuaff-0.0.4.tar.gz).
+
+Changes:
+
+* Promoted native cpu typedefs to cpuaff namespace for ease of use
+
 ##### Version 0.0.3 Released
 
 Released [cpuaff-0.0.3](releases/cpuaff-0.0.3.tar.gz).
@@ -43,7 +51,7 @@ To see a list of supported platforms click [here](supported_platforms.html).
 
 ### Releases
 
-The latest release is [cpuaff-0.0.3](releases/cpuaff-0.0.3.tar.gz).  To get other releases, go to the [downloads](downloads.html) page.
+The latest release is [cpuaff-0.0.4](releases/cpuaff-0.0.4.tar.gz).  To get other releases, go to the [downloads](downloads.html) page.
 
 For installation instructions, click [here](installation.html)
 
