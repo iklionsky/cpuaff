@@ -5,6 +5,16 @@ layout: slate
 
 ### News
 
+##### Version 0.0.5 Released
+
+Released [cpuaff-0.0.5](releases/cpuaff-0.0.5.tar.gz).
+
+Changes:
+
+* Fixed a bug in reading sysfs on 3.x kernels.
+
+2015-05-18 07:32:00
+
 ##### Version 0.0.4 Released
 
 Released [cpuaff-0.0.4](releases/cpuaff-0.0.4.tar.gz).
@@ -51,7 +61,7 @@ To see a list of supported platforms click [here](supported_platforms.html).
 
 ### Releases
 
-The latest release is [cpuaff-0.0.4](releases/cpuaff-0.0.4.tar.gz).  To get other releases, go to the [downloads](downloads.html) page.
+The latest release is [cpuaff-0.0.5](releases/cpuaff-0.0.5.tar.gz).  To get other releases, go to the [downloads](downloads.html) page.
 
 For installation instructions, click [here](installation.html)
 
